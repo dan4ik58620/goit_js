@@ -49,30 +49,30 @@
 
 // 4 задание 
 
-let tetra = "12px";
-console.log(tetra);
+// let tetra = "12px";
+// console.log(tetra);
 
-tetra = 12 + "px";
-console.log(tetra);
+// tetra = 12 + "px";
+// console.log(tetra);
 
-tetra = "13.34em";
-console.log(tetra);
+// tetra = "13.34em";
+// console.log(tetra);
 
-tetra = 13.34 + "em";
-console.log(tetra);
+// tetra = 13.34 + "em";
+// console.log(tetra);
 
-// 5 задание
+// // 5 задание
 
-console.log(Math.min(2, 34, 99, 3, 22, 36, 733, 18)); // 2
-console.log(Math.max(2, 34, 99, 3, 22, 36, 733, 18)); // 733
+// console.log(Math.min(2, 34, 99, 3, 22, 36, 733, 18)); // 2
+// console.log(Math.max(2, 34, 99, 3, 22, 36, 733, 18)); // 733
 
 // 6 задание
-let random;
-random = (Math.random() * (19 - 3) + 3);
+// let random;
+// random = (Math.random() * (19 - 3) + 3);
 // console.log(random);
 // console.log("ceil:", Math.ceil(random));
 // console.log("floor:", Math.floor(random));
 // console.log("round:", Math.round(random));
 // console.log("toFixed(2):", random.toFixed(2));
 // console.log("toFixed(1):", random.toFixed(1));
-console.log("toFixed(0):", random.toFixed(0));
+// console.log("toFixed(0):", random.toFixed(0));
