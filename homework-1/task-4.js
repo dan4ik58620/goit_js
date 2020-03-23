@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 
 // const total = 100;
 // let ordered = 150 ;
