@@ -1,4 +1,6 @@
-"use stricts"
+// "use stricts"
+
+// // // ============== 1 =========================================
 
 // const authors = ["William Shakespeare","Guy de Maupassant","Dante Alighieri","Mikhail Bulgakov","Albert Camu","Erich Maria Remarque"];
 
@@ -7,7 +9,7 @@
 
 // console.log(authors);
 
-// // ============== 2 =========================================
+// // // ============== 2 =========================================
 
 // const scores = [12, 32, 15, 17, 3, 4, 98, 67, 532, 611, 7, 100, 42]
 
@@ -19,7 +21,7 @@
 // scores.pop();
 // console.log(scores);
 
-// // ============== 3 =========================================
+// // // ============== 3 =========================================
 
 
 // const result = [12, 32, 15, 17, 3, 4, 98, 67, 532, 611, 7, 100, 42]
@@ -32,15 +34,15 @@
 // console.log(removeFromEnd);
 // console.log(result);
 
-// // ============== 4 =========================================
+// // // ============== 4 =========================================
 
 // const partOfResults = [5, 17, 3, 4, 98, 67, 532, 611];
 
-// // ============== 5 =========================================
+// // // ============== 5 =========================================
 
 // const doubleResults = [5, 17, 3, 4, 98, 67, 532, 611];
 
-// // ============== 6 =========================================
+// // // ============== 6 =========================================
 
 // const evenResults = [532, 98, 4,];
 
@@ -48,3 +50,18 @@
 
 // console.log(evenResults);
 // console.log(oddResults);
+
+// // // ============== 7 =========================================
+
+// const AllResults = evenResults.concat(oddResults);
+// console.log("AllResults", AllResults);
+
+// let includesOne = [];
+
+// for (let i = 0; i < AllResults.length; i += 1) {
+//  let item = AllResults[i] + "";
+//  console.log(item);
+//   if (item.includes(1))
+//   includesOne.push(+item);
+// }
+// console.log("includesOne", includesOne);
