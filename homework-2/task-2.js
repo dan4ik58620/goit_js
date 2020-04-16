@@ -1,13 +1,13 @@
-"use stricts"
+"use stricts";
 
 // // // ============== 1 =========================================
 
-const authors = ["William Shakespeare","Guy de Maupassant","Dante Alighieri","Mikhail Bulgakov","Albert Camu","Erich Maria Remarque"];
+// const authors = ["William Shakespeare","Guy de Maupassant","Dante Alighieri","Mikhail Bulgakov","Albert Camu","Erich Maria Remarque"];
 
-authors.push("Honore de Balzac", "Miguel de Cervantes", "Anton Chekhov");
-authors.unshift("Charles Dickens", "Edgar Allan Poe", "Gabriel Garcia Marquez");
+// authors.push("Honore de Balzac", "Miguel de Cervantes", "Anton Chekhov");
+// authors.unshift("Charles Dickens", "Edgar Allan Poe", "Gabriel Garcia Marquez");
 
-console.log(authors);//12
+// console.log(authors);//12
 
 // // // ============== 2 =========================================
 
