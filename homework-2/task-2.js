@@ -26,9 +26,9 @@
 
 // const result = [12, 32, 15, 17, 3, 4, 98, 67, 532, 611, 7, 100, 42]
 
-// const removeFromStart = scores.splice(0, 3);
+// const removeFromStart = results.splice(0, 2);
 
-// const removeFromEnd = scores.splice(9, 3);
+// const removeFromEnd = results.splice(-3);
 
 // console.log(removeFromStart);
 // console.log(removeFromEnd);
