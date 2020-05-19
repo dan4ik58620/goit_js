@@ -37,7 +37,7 @@ console.log(getUsersWithGender(users, "male"));
 // ================ 4 ====================
 
 const getInactiveUsers = (users) => {
-  return users.filter(user => !user.isAcrive);
+  return users.filter(user => !user.isActive);
 };
 console.log(getInactiveUsers(users));
 
@@ -53,7 +53,7 @@ console.log(getUserWithEmail(users, "elmahead@omatom.com")); // {объект п
 // Получить массив пользователей попадающих в возрастную категорию от min до max лет (поле age).
  
 const getUsersWithAge = (users, min, max) => {
-  return users.filter(user => user.age >= min && user.age < mac)
+  return users.filter((user) => users.age >= min && users.age < mac)
 };
  
 console.log(getUsersWithAge(users, 20, 30)); // [объект Ross Vazquez, объект Elma Head, объект Carey Barr]
@@ -65,7 +65,7 @@ console.log(getUsersWithAge(users, 30, 40));
 // Получить общую сумму баланса (поле balance) всех пользователей.
  
 const calculateTotalBalance = (users) => {
- return users.reduce(acc, user => acc + user.balance, 0)
+return users.reduce((acc, user) => acc + user.balance, 0);
 };
  
 console.log(calculateTotalBalance(users)); // 20916
@@ -74,7 +74,7 @@ console.log(calculateTotalBalance(users)); // 20916
 // Массив имен всех пользователей у которых есть друг с указанным именем.
  
 const getUsersWithFriend = (users, friendName) => {
-  return users.filter(user => user.friends.indexOff(friendName) !== -1).map(user => user.name);
+  return users.filter(user => user.friends.indexOf(friendName) !== -1).map(user => user.name);
 };
  
 console.log(getUsersWithFriend(users, "Briana Decker")); // [ 'Sharlene Bush', 'Sheree Anthony' ]
