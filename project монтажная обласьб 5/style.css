@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.signIn,
+.signIn_section,
+.signUp_section,
+.user_profile,
+.habits,
+.newHabit_modal,
+.habit_window {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* padding: 100px 0; */
+    border: 1px solid;
+    height: 570px;
+}
+
+.signIn {
+    background: url(./img/mob_bottom2.png);
+}
+
+
+
+.logo {
+    display: block;
+    position: relative;
+    width: 319px;
+    margin-bottom: 200px;
+}
+
+.logo::before {
+    content: "";
+    position: absolute;
+    background: url(./img/logo_mob.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 254px;
+    height: 79px;
+    top: 55px;
+    left: 10px;
+}
+
+.signIn button {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    padding: 10px 20px;
+    border: 1px solid violet;
+    border-radius: 16px;
+    color: darkslateblue;
+    background-color: rgb(247, 242, 247);
+}
+
+.signIn_section,
+.signUp_section {
+    background: url(./img/mob_waves2.png);
+}
+
+.signUp_header-button,
+.signUp_header-button,
+.habits_header,
+.habit_window-header {
+    height: 62px;
+    width: 320px;
+    color: floralwhite;
+    margin-bottom: 50px;
+    background: linear-gradient(90deg, rgba(107, 82, 165, 1) 1%, rgba(173, 129, 209, 0.5) 60%);
+    border: 0;
+    border-radius: 0 0 15px 15px;
+    font-size: 21px;
+    text-align: left;
+    /* box-shadow: ; */
+    padding-left: 38px;
+    font-family: "Candara";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.user_profile {
+    background: url(./img/mob_top.png);
+
+}
+
+.habits {
+    background: url(./img/mob_bottom2.png);
+}
+
+/* .signIn button {
+    height: 33px;
+    width: 186px;
+    margin-left: 70px;
+    color: darkslateblue;
+    font-size: 19px;
+} */
+
+.button_class {
+    height: 62px;
+    width: 320px;
+    color: floralwhite;
+    margin-bottom: 50px;
+    background: linear-gradient(90deg, rgba(107, 82, 165, 1) 1%, rgba(173, 129, 209, 0.5) 60%);
+    border: 0;
+    border-radius: 0 0 15px 15px;
+    font-size: 21px;
+    text-align: left;
+    /* box-shadow: ; */
+    padding-left: 38px;
+    font-family: "Candara";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text {
+    margin-left: 51px;
+    font-size: 20px;
+    color: darkslateblue;
+}
+
+.arms {
+    margin-bottom: 250px;
+    margin-left: 50px;
+    width: 226px;
+    height: 21px;
+    position: relative;
+}
+
+.arms::before {
+    content: "";
+    position: absolute;
+    background-image: url(https://v1.iconsearch.ru/uploads/icons/finalflags/24x24/ukraine-flag.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 1px;
+    left: 1px;
+}
+
+.habits_habits {
+    margin-right: 200px;
+    margin-top: -50px;
+    color: purple;
+}
+
+.habits_dates {
+    margin-left: 67px;
+    margin-top: 65px;
+    position: absolute;
+}
+
+#single {
+    font-size: 50px;
+    color: white;
+    margin-left: 245px;
+    border: medium none;
+    background-image: none;
+    background: transparent;
+    float: left;
+    background-color: transparent;
+}
+
+.textContent {
+    width: 250px;
+    margin-top: 250px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+#imgbtn {
+    width: 40px;
+    position: relative;
+    margin-top: -55px;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .container {
+        width: 1920px;
+    }
+
+
+}

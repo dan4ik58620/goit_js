@@ -1,5 +1,6 @@
 "use strict";
 
+
 const menu = document.querySelector(".menu");
 console.log(menu);
 
@@ -25,9 +26,9 @@ container.insertBefore(logo, menu);
 const article = document.querySelector(".article");
 const text = document.querySelector(".text1");
 const link = document.querySelector(".link");
-article.removeChild(text);
+// article.removeChild(text);
 // article.removeChild(link);
-link.remove();
+// link.remove();
 
 const parent = document.querySelector(".parent");
 const article1 = document.querySelector(".article1");
